@@ -1,5 +1,7 @@
 # Notes on Learn C the Hard way 
 
+Intended for me to document and answer my own questions about things I don't understand.
+
 ### EX2
 #### What is ex1.dSYM and why is being created?
 
