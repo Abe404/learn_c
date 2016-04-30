@@ -9,7 +9,12 @@ all:
 # target: clean - remove any files generates from previous build.
 clean:
 		rm -f ex1
+		rm notes.html
 		rm -r ex1.dSYM
+
+# target: notes - build html from the notes in markdown
+notes:
+	  md2html notes.md > notes.html
 
 # target: help - Display callable targets
 help:
