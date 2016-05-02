@@ -1,16 +1,17 @@
 # -Wall means display all warnings (isn't actually _all_ warnings)
 # -g tells the compiler to include debug information
-CFLAGS=-Wall -g
+CFLAGS=-Wall -Wextra -g
 
 # target: all - build ex1 c program
 all:
 	make ex1
+	make ex3
 
 # target: clean - remove any files generates from previous build.
 clean:
-		rm -f ex1
-		rm notes.html
-		rm -r ex1.dSYM
+		rm -f ex[1-9]
+		rm -f notes.html
+		rm -r ex[1-9].dSYM
 
 # target: notes - build html from the notes in markdown
 notes:
