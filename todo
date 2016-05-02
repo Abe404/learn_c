@@ -1,0 +1,20 @@
+
+Do the extras from ex3
+http://c.learncodethehardway.org/book/ex3.html
+
+Run man 3 printf and read about the other '%' format characters you can use. These should look familiar if you used them in other languages (printf is where they come from).
+
+Add ex3 to your Makefile's all list. Use this to make clean all and build all your exercises so far.
+
+Add ex3 to your Makefile's clean list as well. Now use make clean will remove it when you need to.
+
+
+* Review the notes.md and address any TODO's
+
+* Reaview plan c readme:
+Read through the old notes form here (some of them mine)
+https://github.com/rohanorton/plan.c/blob/master/README.md
+
+Add related information to my notes with original source url (from stack overflow etc)
+
+##### Proceed to ex4.
