@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="github-markdown.css">
+<style>
+    .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+    }
+</style>
+<article class="markdown-body">
+<h1>Notes on Learn C the Hard way</h1>
+
+<p>Intended for me to document and answer my own questions about things I don&#39;t understand.</p>
+
+<h3>EX2</h3>
+
+<h4>What is ex1.dSYM and why is being created?</h4>
+
+<h5>TODO mention its relation to clang.</h5>
+
+<p>  It is a directory which includes debug information.</p>
+
+<blockquote><p>On MacOSX debug symbols are often in stand alone bundles called dSYM files. 
+These are bundles that contain DWARF debug information and other resources related to builds and debug info. [0]</p></blockquote>
+
+<h4>What is DWARF debug information?</h4>
+
+<blockquote><p>DWARF is a debugging file format used by many compilers and debuggers to support source level debugging. [1]</p></blockquote>
+
+<p>For further info this is an 11 page introduction to the drawf debugging format [2]</p>
+
+<h4>TODO: Read this and update my Makefile with anything that looks likei it could be useful</h4>
+
+<p>https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_makefiles.html</p>
+
+<h4>TODO: Understand every command in this makefile, also take useful elements and add to my own.</h4>
+
+<p>https://github.com/rohanorton/plan.c/blob/master/rohan<em>code/learn</em>c<em>the</em>hard_way/Makefile</p>
+
+<h3>EX3</h3>
+
+<h4>TODO: What else is in stdio.h apart from printf?</h4>
+
+<h4>TODO: What are all of the printf excape codes and format sequences?</h4>
+
+<p>Find all of the ones available, how you can modify them and what kind of 
+&quot;precisions&quot; and widths you can do.</p>
+
+<p>Some example excape codes are: \n or \t. </p>
+
+<p>Some example format sequences are %s or %d.</p>
+
+<p><strong>Sources</strong></p>
+
+<p>TODO: Move these into links inline as it will get easier to break this file up if i need to do so in the future.
+<em> [0] http://lldb.llvm.org/symbols.html
+</em> [1] http://dwarfstd.org/
+* [2] http://dwarfstd.org/doc/Debugging%20using%20DWARF-2012.pdf</p>

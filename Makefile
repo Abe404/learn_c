@@ -3,19 +3,19 @@
 CFLAGS=-Wall -Wextra -g
 
 # target: all - build ex1 c program
-all:
-	make ex1
-	make ex3
+all: src/ex1 src/ex3
 
 # target: clean - remove any files generates from previous build.
 clean:
-		rm -f ex[1-9]
-		rm -f notes.html
-		rm -r ex[1-9].dSYM
+		rm -f src/ex1
+		rm -f src/ex3
+		rm -f -r src/ex[1-9].dSYM
 
-# target: notes - build html from the notes in markdown
-notes:
-	  md2html notes.md > notes.html
+# target: noteshtml - build html from the notes in markdown
+noteshtml:
+		touch notes/notes.html
+		cat notes/notes_header.html > notes/notes.html
+	  md2html notes/notes.md >> notes/notes.html
 
 # target: help - Display callable targets
 help:
