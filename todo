@@ -1,12 +1,31 @@
 
-Do the extras from ex3
-http://c.learncodethehardway.org/book/ex3.html
+Work through this:
+http://c.learncodethehardway.org/book/ex4.html
+From installing Valgrind to the end.
 
-Run man 3 printf and read about the other '%' format characters you can use. These should look familiar if you used them in other languages (printf is where they come from).
+Do extras:
 
-Add ex3 to your Makefile's all list. Use this to make clean all and build all your exercises so far.
+Download other software and build it by hand. Try something you already use but never built for yourself.
 
-Add ex3 to your Makefile's clean list as well. Now use make clean will remove it when you need to.
+Look at how the Valgrind source files are laid out in the source directory and read its Makefile. Don't worry, none of that makes sense to me either.
+
+### Stay focused on the tutorial, get it finished and come back to these other ideas later.
+ 
+ex3 - document all formatting options.
+
+ex3 (man 3 printf documentation on formatting) "The arguments must correspond properly (after type promotion) with the conversation specifier." - What is type promototion?
+https://www.eskimo.com/~scs/cclass/int/sx4cb.html (type converstion)
+
+ex3: printf is clearly really conplex, maybe work through a few of the examples
+in man 3 printf and make some more of my own to help understand.
+
+
+ex4: 
+
+From valgrind.org:
+  The Valgrind distribution currently includes six production-quality tools: a memory error detector, two thread error detectors, a cache and branch-prediction profiler, a call-graph generating cache and branch-prediction profiler, and a heap profiler. It also includes three experimental tools: a stack/global array overrun detector, a second heap profiler that examines how heap blocks are used, and a SimPoint basic block vector generator.
+
+  Write a summary of each of these tools and show in which situations they could be useful (write example programs that illustrate their use).
 
 
 * Review the notes.md and address any TODO's
@@ -17,4 +36,7 @@ https://github.com/rohanorton/plan.c/blob/master/README.md
 
 Add related information to my notes with original source url (from stack overflow etc)
 
-##### Proceed to ex4.
+
+# what is .PHONY in a make file????
+
+
