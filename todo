@@ -1,13 +1,7 @@
 
-Work through this:
-http://c.learncodethehardway.org/book/ex4.html
-From installing Valgrind to the end.
+http://c.learncodethehardway.org/book/ex5.html
 
-Do extras:
 
-Download other software and build it by hand. Try something you already use but never built for yourself.
-
-Look at how the Valgrind source files are laid out in the source directory and read its Makefile. Don't worry, none of that makes sense to me either.
 
 ### Stay focused on the tutorial, get it finished and come back to these other ideas later.
  
