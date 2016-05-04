@@ -3,13 +3,14 @@
 CFLAGS=-Wall -Wextra -g
 
 # target: all - build ex1 c program
-all: src/ex1 src/ex3 src/ex4
+all: src/ex1 src/ex3 src/ex4 src/ex5
 
 # target: clean - remove any files generates from previous build.
 clean:
 		rm -f src/ex1
 		rm -f src/ex3
 		rm -f src/ex4
+		rm -f src/ex5
 		rm -f -r src/ex[1-9].dSYM
 
 # target: noteshtml - build html from the notes in markdown
