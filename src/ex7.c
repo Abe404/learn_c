@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]) 
+int main() 
 {
   int bugs = 100; 
   double bug_rate = 1.2;
@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
     bugs, bug_rate);
 
   long universe_of_defects = 1L * 1024L * 1024L * 1024L;
+  universe_of_defects *= universe_of_defects;
   printf("The entire universe has %ld bugs.\n", universe_of_defects);
   
   double expected_bugs = bugs * bug_rate;
@@ -22,11 +23,8 @@ int main(int argc, char *argv[])
   int care_percentage = bugs * nul_byte;
   printf("Which means you should care %d%%.\n", care_percentage);
   
-  printf("\nprint printf: %s \n", printf);
-
   printf("\nPrinting out that nul_byte variable too with %%c and %%s.: \n");
 
-  printf("Nulbyte with %%s = %s\n", nul_byte);
   printf("Nulbyte with %%c = %c\n", nul_byte);
 
   return 0;
