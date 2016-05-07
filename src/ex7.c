@@ -10,6 +10,13 @@ int main()
 
   long universe_of_defects = 1L * 1024L * 1024L * 1024L * 1024L * 1024L * 1024;
 
+  unsigned long too_big = universe_of_defects;
+  too_big *= 1023;
+  printf("Too big: %lu \n", too_big);
+
+
+
+
   printf("The entire universe has %ld bugs.\n", universe_of_defects);
   printf("The entire universe has %.10e bugs.\n", (double)universe_of_defects);
   
