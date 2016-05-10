@@ -12,7 +12,6 @@ int main(int argc, char *argv[])
   };
 
 
-
   
   // WARNING: On some systems you may have to change the
   // %ld in this code to a %u since it will use unsigned ints
@@ -54,8 +53,20 @@ int main(int argc, char *argv[])
     i += 1;
   }*/
 
+  // Try assigning to elements of name and full_name
+  name[1] = full_name[0];
+  printf("name[1] = full_name[0];\n");
+  printf("name=\"%s\" and full_name=\"%s\"\n", name, full_name);
 
 
+  full_name[1] = name[0];
+  printf("full_name[1] = name[0];\n");
+  printf("name=\"%s\" and full_name=\"%s\"\n", name, full_name);
+
+
+  areas[0] = name[0];
+  printf("areas[0] = name[0];");
+  printf("The first area is %d, the 2nd %d. \n", areas[0], areas[1]);
 
   return 0;
 }
