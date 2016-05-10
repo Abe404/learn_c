@@ -1,10 +1,5 @@
 
-http://c.learncodethehardway.org/book/ex8.html
-From this part of the extra credit:
-Try assigning to elements of name and full_name.
-Try setting one element of areas to a character from name.
-* Go search online for the different sizes used for integers on different CPUs.
-(read the docs saved in the integer size folder)
+http://c.learncodethehardway.org/book/ex9.html
 
 ### Stay focused on the tutorial, get it finished and come back to these other ideas later.
  
@@ -36,4 +31,7 @@ Add related information to my notes with original source url (from stack overflo
 
 # what is .PHONY in a make file????
 
-
+# ex8
+Write about everything that effects the sizes used for integers.
+(Its not just CPU)
+(Seems compiler is a big deal)
