@@ -2,6 +2,7 @@
 http://c.learncodethehardway.org/book/ex9.html
 
 ### Stay focused on the tutorial, get it finished and come back to these other ideas later.
+Not related to an exercise but: learn more about static analysis in clang.
  
 ex3 - document all formatting options.
 
@@ -11,9 +12,7 @@ https://www.eskimo.com/~scs/cclass/int/sx4cb.html (type converstion)
 ex3: printf is clearly really conplex, maybe work through a few of the examples
 in man 3 printf and make some more of my own to help understand.
 
-
 ex4: 
-
 From valgrind.org:
   The Valgrind distribution currently includes six production-quality tools: a memory error detector, two thread error detectors, a cache and branch-prediction profiler, a call-graph generating cache and branch-prediction profiler, and a heap profiler. It also includes three experimental tools: a stack/global array overrun detector, a second heap profiler that examines how heap blocks are used, and a SimPoint basic block vector generator.
 
