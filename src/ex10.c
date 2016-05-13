@@ -14,9 +14,11 @@ int main(int argc, char *argv[]) {
     "Washington", "Texas"
   };
 
-  int num_states = 4;
-  
+  int num_states = 5;
+ 
   for (i = 0; i < num_states; i++) {
+    
+
     printf("state %d: %s\n", i, states[i]);
   }
   
