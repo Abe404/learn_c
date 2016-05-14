@@ -43,6 +43,13 @@ Some example excape codes are: \n or \t.
 Some example format sequences are %s or %d.
 
 
+### EX10
+
+*  Figure out what kind of code you can put into the parts of a for-loop.
+When the conditional expression is absent, it is assumed to be true. You may have an initialization and increment expression
+C programmers more commonly use the for(;;) construct to signify an infinite loop. - http://www.tutorialspoint.com/cprogramming/c_loops.htm
+
+
 __Sources__
 
 TODO: Move these into links inline as it will get easier to break this file up if i need to do so in the future.
